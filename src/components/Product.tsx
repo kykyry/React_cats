@@ -16,8 +16,8 @@ export function Product({ product }: ProductProps) {
             <p className="ProductCard-Elem ProductCard-Elem_title">{product.title}</p>
             <p className="ProductCard-Elem ProductCard-Elem_taste">{product.taste}</p>
             <p className="ProductCard-Elem ProductCard-Elem_gift"><b>{product.gift.portion}</b>
-                {product.gift.portion % 10 === 1 ? "порция" :
-                    (product.gift.portion % 10 <= 4 && !!(product.gift.portion % 10)) ? "порции" : "порций"}</p>
+                {product.gift.portion % 10 === 1 ? " порция" :
+                    (product.gift.portion % 10 <= 4 && !!(product.gift.portion % 10)) ? " порции" : " порций"}</p>
             <p className="ProductCard-Elem ProductCard-Elem_gift">
                 {product.gift.mouse === 1 ? "" : <b>{product.gift.mouse}</b>}
                 {product.gift.mouse % 10 === 1 ? "мышь" : product.gift.mouse % 10 <= 4 ? " мыши" : " мышей"} в подарок</p>
