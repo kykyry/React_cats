@@ -14,8 +14,7 @@
 + Состояние наведения применяется к выбранной упаковке не сразу, а после того, 
 как курсор ушел с нее после первоначального выбора.
 
-![Готовое решение](https://github.com/kykyry/React_cats/raw/master/prototype/Result.png)
-
+![Готовое решение](https://github.com/kykyry/React_cats/blob/main/prototype/Result.png)
 
 # Getting Started with Create React App
 
